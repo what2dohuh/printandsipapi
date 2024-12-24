@@ -31,6 +31,7 @@ app.use(
     origin:  [
       "https://printandsips.shop",
       "https://printandsip.onrender.com",
+      "http://localhost:5173"
     ],
     methods: ["GET", "POST", "DELETE", "PUT"],
     allowedHeaders: [
